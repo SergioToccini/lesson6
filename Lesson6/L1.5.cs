@@ -10,12 +10,11 @@ namespace Lesson6
         private bool _b = false;
         private bool _c = false;
         
-        
-        public void LOneDotFiveSolutionSolution()
+        public void LOneDotFiveSolution()
         {
             bool resultA = _a != _b || _a != _c;
             Console.WriteLine(resultA);
-            
+
             bool resultB = _a != true && _b != false;
             Console.WriteLine(resultB);
             
