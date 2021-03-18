@@ -13,7 +13,7 @@ namespace Lesson6
             LOneDotFive lOneDotFive = new LOneDotFive();
             
             Console.WriteLine("Please enter your number (1-4)");
-            var input = Convert.ToInt32(Console.ReadLine());
+            var input = Convert.ToInt32(Console.ReadLine()); //int.Parse()
             fifteenDotFive.FifteenDotFiveSolution(input);
             
             Console.WriteLine("Please enter card number (6-14)");
